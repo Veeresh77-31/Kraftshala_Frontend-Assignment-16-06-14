@@ -115,12 +115,13 @@ button {
 
 input {
   border: none;
-  background: rgba(255, 255, 255, 0.2);
+  background: #202020;
   color: #fff;
   outline: none;
   padding: 10px 40px;
   border-radius: 8px;
-  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  /* box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px; */
+  box-shadow: 4px 4px 10px #0a0a0a, -4px -4px 10px #3a3a3a;
 }
 input::placeholder {
   color: #f7f7f7;
